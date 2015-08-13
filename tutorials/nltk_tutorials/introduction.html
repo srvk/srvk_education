@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body style="font-family: arial, helvetica, sans-serif;">
+<p>The provisoning of the VM installs NLTK, as well as two data sets (conll2000 and brown).  This enables using some of the tutorials found in the <a href="http://www.nltk.org/book">NLTK Book</a>.</p>
+
+<p>At OSU, we have used the following chapters in class as walkthrough tutorials: </p>
+<ul>
+  <li> <a href="http://www.nltk.org/book/ch05.html" target="_blank">Chapter 5, Categorizing and Tagging Words</a> </li>
+      <ul>
+	<li> <a href="CSE_5525_POS_Tutorial.pdf">Class notes on the part-of-speech tagging tutorial.</a></li>
+      </ul>
+  <li> <a href="http://www.nltk.org/book/ch07.html" target="_blank">Chapter 7, Extracting Information From Text</a> </li>
+      <ul> 
+	<li> This requires megam to be installed from <a href="http://www.umiacs.umd.edu/~hal/megam/index.html">http://www.umiacs.umd.edu/~hal/megam/index.html</a>.  This is installed in the VM. </li>
+	<li> Helpful hint: If you want to print out the parse of a particular sentence in the test set, you need to extract the leaves from the CONLL tree, for example: <pre>chunker.parse(test_sents[99].leaves()).draw()</pre> </li>
+      </ul>
+</ul>
+</body>
+</html>
