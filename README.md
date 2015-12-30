@@ -19,7 +19,8 @@ Note that this version has some missing data that is commonly available in the s
 
 * tidigits.tgz: contains a copy of the TIDIGITS database, using the following ordering
 
-```bash-3.2$ tar -tzf protected/tidigits.tgz | head
+```
+bash-3.2$ tar -tzf protected/tidigits.tgz | head
 tidigits/
 tidigits/data/
 tidigits/data/adults/
