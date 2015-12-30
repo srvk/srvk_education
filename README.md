@@ -19,17 +19,17 @@ Note that this version has some missing data that is commonly available in the s
 
 * tidigits.tgz: contains a copy of the TIDIGITS database, using the following ordering
 
-bash-3.2$ tar -tzf protected/tidigits.tgz | head
-tidigits/
-tidigits/data/
-tidigits/data/adults/
-tidigits/data/adults/test/
-tidigits/data/adults/test/man/
-tidigits/data/adults/test/man/ah/
-tidigits/data/adults/test/man/ah/111a.wav
-tidigits/data/adults/test/man/ah/139oa.wav
-tidigits/data/adults/test/man/ah/155a.wav
-tidigits/data/adults/test/man/ah/1688a.wav
+** bash-3.2$ tar -tzf protected/tidigits.tgz | head
+** tidigits/
+** tidigits/data/
+** tidigits/data/adults/
+** tidigits/data/adults/test/
+** tidigits/data/adults/test/man/
+** tidigits/data/adults/test/man/ah/
+** tidigits/data/adults/test/man/ah/111a.wav
+** tidigits/data/adults/test/man/ah/139oa.wav
+** tidigits/data/adults/test/man/ah/155a.wav
+** tidigits/data/adults/test/man/ah/1688a.wav
 
 If you have licenses for WSJ, TIMIT or TIDIGITS and would like to know how to create the files needed for the experiments, please contact Eric Fosler-Lussier.  
 
