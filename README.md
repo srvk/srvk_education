@@ -31,7 +31,6 @@ tidigits/data/adults/test/man/ah/111a.wav
 tidigits/data/adults/test/man/ah/139oa.wav
 tidigits/data/adults/test/man/ah/155a.wav
 tidigits/data/adults/test/man/ah/1688a.wav
-...
 ```
 
 If you have licenses for WSJ, TIMIT or TIDIGITS and would like to know how to create the files needed for the experiments, please contact Eric Fosler-Lussier.  
