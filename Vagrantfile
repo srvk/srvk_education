@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "http://speechkitchen.org/boxes/mario-kaldi.box"
+  config.vm.box = "http://speech-kitchen.org/boxes/mario-kaldi.box"
   #config.vm.box = "file:///Volumes/EFL Virtual Machines/mario-kaldi.box"
   #config.vm.box = "file:///Users/fosler/VirtualBoxVMs/mario-kaldi.box"
   config.ssh.forward_x11 = true
